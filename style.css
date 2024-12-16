@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  z-index: 999;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.1);
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s ease;
+}
+
+header.sticky {
+  background-color: #3a6cf4;
+  padding: 10px 200px;
+}
+header.brand {
+  color: white;
+  font-size: 1.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header.navigation{
+    position:relative;
+}
+
+header.navigation a{
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+header.navigation a:hover{
+    color: #3a6cf4;
+}
+
+header.sticky.navigation a:hover{
+    color: black;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image:url(./images/Goku\ Background\ 2) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
