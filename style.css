@@ -37,35 +37,44 @@ header.brand {
   text-decoration: none;
 }
 
-header.navigation{
-    position:relative;
+header.navigation {
+  position: relative;
 }
 
-header.navigation a{
-    color: black;
-    font-size: 1em;
-    text-decoration: none;
+header.navigation a {
+  color: black;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+header.navigation a:hover {
+  color: #3a6cf4;
+}
+
+header.sticky.navigation a:hover {
+  color: black;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(./images/Goku\ Background\ 2);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main.content {
+  max-width: 800px;
+}
+
+.main.content{
+    color: white;
+    font-size: 2em;
     font-weight: 500;
-    margin-left: 30px;
 }
-
-header.navigation a:hover{
-    color: #3a6cf4;
-}
-
-header.sticky.navigation a:hover{
-    color: black;
-}
-
-.main{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    background-image:url(./images/Goku\ Background\ 2) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
