@@ -167,7 +167,7 @@ section {
   header .navigation {
     display: none;
   }
-  header .navigation .active {
+  header .navigation.active {
     z-index: 889;
     position: fixed;
     background-color: white;
